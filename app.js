@@ -65,6 +65,6 @@ app.post("/api/create-checkout-session",async(req,res)=>{
     res.json({id:session.id})
 })
 
-app.listen(7000,()=>{
+app.listen(8080,()=>{
     console.log("server start")
 })
